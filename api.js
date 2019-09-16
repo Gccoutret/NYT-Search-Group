@@ -7,8 +7,6 @@ $(document).ready(function(){
 
     var numResults = $('#numReconds').val();
 
-    var 
-
     var topic = $('#searchTerm').val();
 
     var startYear = "begin_date=" + $('#startYear').val();
