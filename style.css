@@ -1,0 +1,13 @@
+.jumbotron {
+    background-color: #21325a;
+}
+.container {
+    padding: 20px;
+}
+.card {
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
