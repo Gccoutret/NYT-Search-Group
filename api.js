@@ -2,10 +2,18 @@ $(document).ready(function(){
 
   var key= "SDJXzizDrGMNzTGFfnYY0w1FqDEoGdQf";
 
-  $('#search-btn').on('click', function(){
+  $('#searchButton').on('click', function(){
     event.preventDefault();
 
-    var topic = $('#query').val();
+    var numResults = $('#numReconds').val();
+
+    var 
+
+    var topic = $('#searchTerm').val();
+
+    var startYear = "begin_date=" + $('#startYear').val();
+
+    var endYear = "end_date=" + $('#endYear').val();
 
     console.log(topic);
 
